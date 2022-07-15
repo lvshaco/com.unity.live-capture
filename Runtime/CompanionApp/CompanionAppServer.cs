@@ -16,7 +16,7 @@ namespace Unity.LiveCapture.CompanionApp
     /// The server used to communicate with the companion apps.
     /// </summary>
     [CreateServerMenuItem("Companion App Server")]
-    class CompanionAppServer : Server
+    public class CompanionAppServer : Server
     {
         const int k_DefaultPort = 9000;
 

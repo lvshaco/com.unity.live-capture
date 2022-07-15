@@ -21,7 +21,7 @@ namespace Unity.LiveCapture.Editor
                 GUILayout.Width(230f),
                 GUILayout.Height(24f)
             };
-            static readonly string k_IconPath = "Packages/com.unity.live-capture/Editor/Core/Icons";
+            static readonly string k_IconPath = "Assets/com.unity.live-capture/Editor/Core/Icons";
             public static readonly GUIContent WindowTitle = EditorGUIUtility.TrTextContentWithIcon("Connections", $"{k_IconPath}/LiveCaptureConnectionWindow.png");
             public static readonly GUIContent FirewallConfigureLabel = EditorGUIUtility.TrTextContent("Configure Firewall", "Add rules to the firewall that enable Unity to receive connections on private or work networks.");
             public static readonly GUIContent CreateServerLabel = EditorGUIUtility.TrTextContent("Create Server", "Create a Server of the selected type.");
